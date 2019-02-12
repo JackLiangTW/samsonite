@@ -1,0 +1,70 @@
+*{
+    -webkit-overflow-scrolling:touch;
+}
+body{
+    font-family: RoBoto, Arial, Helvetica, sans-serif, Microsoft JhengHei, "微軟正黑體", "蘋果儷中黑", Apple LiGothic Medium;
+}
+.RunBig .partleft .datas{
+    width: 78%;
+}
+a.btn, a.btnmo{
+    background-color: #333;
+    color: white;
+    margin-left: 0;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+a.btn:hover{
+    background-color: #666;
+}
+.secondback .rightdata p:nth-child(5), .secondback .rightdata p:nth-child(6), .secondback .rightdata p:nth-child(7), .secondback .rightdata p:nth-child(8){
+    margin-left: 15px;
+    font-size: 14px;
+}
+.bottomwd{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.bags .bag .bagspan2 span, .bags .bag .bagspan3 span, .bags .bag .bagspan4 span, .bags .bag .bagspan5 span, .bags .bag .bagspan6 span, .bags .bag .bagspan7 span, .bags .bag .bagspan1 span{
+    line-height: 25px;
+}
+@media screen and (max-width: 1000px){
+    a.btnmo{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 414px){
+    a.btnmo{
+        width: 100%;
+        padding: 15px 0;
+    }
+    .RunBig .titles1 span:nth-child(3), .RunBig .titles2 span:nth-child(3), .RunBig .titles3 span:nth-child(3){
+        font-size: 17px;
+        width: 100%;
+    }
+    .RunBig .titles1 span:nth-child(2), .RunBig .titles2 span:nth-child(2), .RunBig .titles3 span:nth-child(2){
+        font-size: calc(100vw / 8);
+    }
+    .bags{
+        overflow: hidden;
+    }
+    .bags .bag{
+        width: 50%;
+        margin: 0;
+        border: none;
+        float: left;
+    }
+    .bags .bag span:nth-child(3){
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .bags .bag span:nth-child(4){
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 375px){
+    .RunBig .titles1 span:nth-child(3), .RunBig .titles2 span:nth-child(3), .RunBig .titles3 span:nth-child(3){
+        font-size: 16px;
+    }
+}
